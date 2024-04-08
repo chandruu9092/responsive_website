@@ -1,0 +1,126 @@
+.p4-main-div{
+  background-color: rgb(198, 188, 215);
+  border: 1px solid rgb(193, 178, 216);
+}
+.head-div{
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+  #nav-div1{
+    width: 18%;
+  }
+  #nav-div2{
+    width: 65%;
+    display: flex;
+    align-items: center;
+  }
+    .nav-list{
+      font-weight: bolder;
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 30px;
+    }
+    #nav-list1{
+      margin-left: 50px;
+    }
+  #nav-div3{
+    width: 20%;
+    display: flex;
+    align-items: center;
+  }
+    #nav-span-icon1{
+      width: 15%;
+      margin-left: 10px;
+    }
+      .nav-icon-whats{
+        border-radius: 50%;
+        border: 1px solid black;
+      }
+      .nav-icon-face{
+        border-radius: 50%;
+        margin-left: 10px;
+        padding: 2px;
+      }
+    #nav-span-icon2{
+      width: 80%; 
+    }
+
+.p2-main-div{
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  padding: 45% 45% 5% 5%;
+  background-image: url("heroimg.jpg");
+  background-size: cover;
+  background-position: 0px -100px;
+}
+.p2-btn{
+  color: white;
+  font-weight: bolder;
+  padding: 25px 180px;
+  background-color: rgb(96, 93, 93);
+  border: none;
+  font-size: 20px;
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(115, 113, 113));
+}
+
+.p3-main-div{
+  display: flex;
+  align-items: center;
+  background-color: rgb(172, 172, 172);
+  height: auto;
+  padding: 50px;
+  text-align: center;
+}
+  .p3-span{
+    font-size: 25px;
+    max-width: 400px;
+    text-align: center;
+    margin: 25px 35px;
+  }
+  .p4-div{
+    margin: 50px;
+  }
+  .p4-p1{
+    font-size: 50px;
+    margin-top: 0px;
+    color: black;
+  }
+  .p4-div2{
+    display: flex;
+  }
+    .p4-div2-div{
+      flex: 3;
+      position: sticky;
+    }
+    #p4-div2-div1{
+      text-align: start;
+    }
+    #p4-div2-div3{
+      text-align: end;
+    }
+    #p4-div2-div2{
+      text-align: center;
+    }
+      .p4-head{
+        font-weight: bolder;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        font-size: 20px;
+      }
+      .p4-desc{
+        width: 100px;
+        margin-top: 30px;
+        font-weight: bolder;
+        font-size: 15px;
+      }
+      .p4-btn{
+        margin-top: 30px;
+        border: none;
+        background-color: black;
+        padding: 15px 50px;
+        color: white;
+        font-size: 20px;
+      }
+
